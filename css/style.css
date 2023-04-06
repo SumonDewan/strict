@@ -1,0 +1,148 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background: #f9f9f9;
+
+text-align: center;
+
+padding: 30px 0;
+}
+.header_point{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+}
+nav ul li{
+
+margin-left: 100px;
+}
+nav ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: black;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.banner{
+    background-image: url(../images/Strict-\(1\).png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    min-height: 100vh;
+    position: relative;
+}
+.icon{
+    
+width: 30%;
+    
+/* margin: auto; */
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 50%;
+    
+transform: translate (-50%,-50%);
+    
+text-align: center;
+    
+transform: translate(-50%, -50%);
+}
+.icon h1{
+
+color: #fff;
+
+font-size: 100px;
+
+text-align: center;
+}
+.icon span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: blue;
+}
+.icon p{
+
+text-align: center;
+
+color: #fff;
+
+margin: 30px 0;
+}
+.icon button{
+
+background: transparent;
+
+border: none;
+
+color: #fff;
+
+text-transform: uppercase;
+
+border: 1px solid #15a4fa;
+
+padding: 10px 20px;
+}
+.icon button:hover{
+    background-color: #15a4fa;
+}
+.content{
+
+width: 70%;
+
+margin: auto;
+
+text-align: center;
+}
+.content h1{
+
+margin-top: 40px;
+color: #2d3950;
+}
+.content p{
+    
+color: #999999;
+    
+margin-top: 20px;
+}
